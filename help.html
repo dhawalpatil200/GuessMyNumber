@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css"></link>
+    <title>Guess My Number!</title>
+  </head>
+  <body>
+    <div class="container">
+        <p class="claim">Claim : You can always win this game.</p>
+        <div class="instructions">
+            Instructions :
+            <ul>
+                <li>You have to predict one secret number between 1 to 20.</li>
+                <li>Your initial score will be 20.</li>
+                <li>Everytime you predict the wrong output, a message will be displayed stating wether the current guess is less than or greater than secret number.</li>
+                <li>Score will be reduced by 1 if your guess is wrong.</li>
+                <li>Here is one catch : you have only 4 chances.</li>
+            </ul>
+        </div>
+        <div class="hint">
+            <button class="btn" id="demo">Display Hint</button>
+            <div class="hint_solution">Think of the Binary Search Approach</div>
+        </div>
+        
+    </div>
+
+    <script src="help.js"></script>
+  </body>
+</html>
